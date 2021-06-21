@@ -24,6 +24,18 @@ Explain the purpose of this analysis.
 ## Results: 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
+
+Machine Learning Model | Balanced Accuracy Score| Precision Score| Recall Score
+------------ | -------------  | ------------- | -------------
+Content cell 1 | Content cell 2 | Content cell 2| Content cell 2
+Content cell 2 | Content cell 2 | Content cell 2| Content cell 2
+Content cell 3 | Content cell 2 | Content cell 2| Content cell 2
+Content cell 4 | Content cell 2 | Content cell 2| Content cell 2
+Content cell 5 | Content cell 2 | Content cell 2| Content cell 2
+Content cell 6 | Content cell 2 | Content cell 2| Content cell 2
+
+
+
 ## Summary: 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
