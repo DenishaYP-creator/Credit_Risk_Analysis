@@ -22,20 +22,22 @@ Explain the purpose of this analysis.
 
 
 ## Results: 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-
-
 Machine Learning Model | Balanced Accuracy Score| Precision Score| Recall Score
 ------------ | -------------  | ------------- | -------------
-Content cell 1 | Content cell 2 | Content cell 2| Content cell 2
-Content cell 2 | Content cell 2 | Content cell 2| Content cell 2
-Content cell 3 | Content cell 2 | Content cell 2| Content cell 2
-Content cell 4 | Content cell 2 | Content cell 2| Content cell 2
-Content cell 5 | Content cell 2 | Content cell 2| Content cell 2
-Content cell 6 | Content cell 2 | Content cell 2| Content cell 2
+Naive Random Oversampling| 0.59 | 0.99|  0.53
+SMOTE Oversampling | 0.61 | 0.99| 0.66
+Undersampling | 0.50 | 0.99| 0.45
+Combination (Over and Under) Sampling | 0.57 | 0.99| 0.51
+Balanced Random Forest Classifier | 0.79 |  0.99 |  0.91 
+Easy Ensemble AdaBoost Classifier | 0.92 | 0.99 | 0.94 
 
 
 
 ## Summary: 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+Three techniques to address class imbalance: 
+1. Naive Random Oversampling : In Naive Random Oversampling the majority and minority classes are balanced. The data selection in one in which the minority class are randomly selected and added to the training set resultign in a balance data set. The disadvage of this metthod is that you  can end up losing critial information that is critcal to a model.
+3. undersampling
+4. combination approach of oversampling and undersampling
 
