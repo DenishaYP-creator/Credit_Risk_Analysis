@@ -38,9 +38,19 @@ Cluster Centroid Undersampling
 ## Summary: 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
+Machine Learning Model | Balanced Accuracy Score| Precision Score| Recall Score
+------------ | -------------  | ------------- | -------------
+Naive Random Oversampling| In  Naive Random Oversampling the the minority class are randomly selected from the data and added to the training set resulting in increase in the size of the minority data| set resulting in increase in the size of the minority data leading to a balance data set.|  The disadvantage of this metthod is that you  can end up losing critial information that can be vital to a ML model.
+SMOTE Oversampling | In Oversampling(Synthetic Minority Oversampling Technique), on the other hand, the minority class are selected from an occurance of that minority class closest neihborbor | resulting in the creation of new values. | The disadvantage of this metthod is that you  can end up with outlineirs.
+Random Undersampling | In  Udersampling the the majority class are randomly decreased in the training set | resulting in decrease in the size of the majority data leading to a balance data set.| The disadvantage of this metthod is that you  must have sufficent data to select from otherwise the we can end up losing critial information that can be vital to a ML model
+Combination (Over and Under) Sampling | 0.57 | 0.99| 0.51
+
+
+Balanced Random Forest Classifier | 0.79 |  0.99 |  0.91 
+Easy Ensemble AdaBoost Classifier | 0.92 | 0.99 | 0.94 
+
 Three techniques to address class imbalance: 
-1. Naive Random Oversampling : In  Naive Random Oversampling the the minority class are randomly selected from the data and added to the training set resulting in increase in the size of the minority data leading to a balance data set. The disadvantage of this metthod is that you  can end up losing critial information that can be vital to a ML model.
-2. SMOOTEN Oversampling(Synthetic Minority Oversampling Technique): In SMOTE oversampling, on the other hand, the minority class are selected from an occurance of that minority class closest neihborbor resulting in the creation of new values. The disadvantage of this metthod is that you  can end up with outlineirs.
+
 3. Randome Undersampling:  In  Udersampling the the majority class are randomly decreased in the training set resulting in decrease in the size of the majority data leading to a balance data set. The disadvantage of this metthod is that you  must have sufficent data to select from otherwise the we can end up losing critial information that can be vital to a ML model
 4. combination approach of oversampling and undersampling
 
