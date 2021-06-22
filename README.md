@@ -54,6 +54,9 @@ Combination (Over and Under) Sampling | In Combination (Over and Under) Sampling
 Balanced Random Forest Classifier | In Balanced Random Forest Classifier|  resulting in| The disadvantage of this metthod
 Easy Ensemble AdaBoost Classifier | In Easy Ensemble AdaBoost Classifier | resulting in | The disadvantage of this metthod
 
+
+
+
 Oversample the minority class with SMOTE.
 Clean the resulting data with an undersampling strategy. If the two nearest neighbors of a data point belong to two different classes, that data point is dropped.
 
