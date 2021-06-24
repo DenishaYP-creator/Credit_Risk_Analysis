@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview of the analysis: 
-In this project, we the Scikit learn, imbalanced libraries, and a credit card dataset from LendingClub, a peer-to-peer lending services company to build, train and evaluate varios Machine Learning models. The ML techniques used in this project to solve for unbalanced risk classification in the LendingClub credit card dataset.
+In this project, we the Scikit learn, imbalanced libraries, and a credit card dataset from LendingClub, a peer-to-peer lending services company to build, train and evaluate varios Machine Learning models. The ML techniques used in this project helped to solve for unbalanced risk classification in our LendingClub credit card dataset.
 
 **The deliverables for this Challenge are as follows:**
 - Deliverable 1: Use Resampling Models to Predict Credit Risk (File Upload credit_risk_resampling.ipynb file)
@@ -10,7 +10,15 @@ In this project, we the Scikit learn, imbalanced libraries, and a credit card da
 - Deliverable 4: A Written Report on the Credit Risk Analysis (README.md)
 
 
-## Results:  Performance Machine Learning model
+## Results:  Performance Machine Learning model. 
+Each models was evaluted to determine the following: 
+- Balance Accurancy Score: Average Number of recalled/predictions each model got right.  High accurancy score yeild greater score of accurancy when making predictions. 
+- Precision Score:  Number of correct positive predicted observations compared to the total number of positive predicted observations. High precision score yeild a low false positive rate. 
+- Recall Score: Number of correct positive predicted observations compared to the number of positive predicted observations in a class. High recall score yeild a low false positive rate.
+
+
+
+
 Machine Learning Model | Balanced Accuracy Score| Precision Score| Recall Score
 ------------ | -------------  | ------------- | -------------
 Naive Random Oversampling| 0.59 | 0.99|  0.53
@@ -26,7 +34,9 @@ Easy Ensemble AdaBoost Classifier | 0.92 | 0.99 | 0.94
 
 ## Summary: 
 #### Recommendation: 
-Based on the above results, the Balanced Random Forest Classifier has a Balanced Accuracy Score of 0.79, Precision Score of 0.99, and a Recall Score; therefore, we recommend using the Balanced Random Forest Classifier techniques to solve for unbalanced credit card risk classification problem. In the Balanced Random Forest Classifier, Multiples decision trees are fitted into a forest tree with weak learning trees. It then trains the model against a small subset of the initial dataset resulting in the reduction of the variance of the model leading to increase accuracy
+In the Balanced Random Forest Classifier, multiples decision trees are fitted into a forest tree with weak learning trees. It then trains the model against a small subset of the initial dataset resulting in the reduction of the variance of the model leading to increase accuracy. 
+
+Based on the above results, the Balanced Random Forest Classifier has a 79% Balanced Accuracy rate, 99 % Precision rate, and a Recall rate of 91%; therefore, we recommend using the Balanced Random Forest Classifier techniques to solve for unbalanced credit card risk classification problem since all score have higher outcomes therefore yeilding a low false positive rate.
 
 Machine Learning Model | What it does!| Results  | Disadvantages of Method
 ------------ | -------------  | ------------- | -------------
