@@ -21,6 +21,7 @@ Number of correct positive predicted observations compared to the number of posi
 
 
 
+**Note:
 
 Machine Learning Model | Balanced Accuracy Score| Precision Score| Recall Score
 ------------ | -------------  | ------------- | -------------
