@@ -12,12 +12,12 @@ In this project, we the Scikit learn, imbalanced libraries, and a credit card da
 
 ## Results:  Performance Machine Learning model. 
 Each models was evaluted to determine the following: 
-**- Balance Accurancy Score: 
--   Average Number of recalled/predictions each model got right.  High accurancy score yeild greater score of accurancy when making predictions. 
-**- Precision Score:  
--   Number of correct positive predicted observations compared to the total number of positive predicted observations. High precision score yeild a low false positive rate. 
-**- Recall Score: 
--   Number of correct positive predicted observations compared to the number of positive predicted observations in a class. High recall score yeild a low false positive rate.
+- **Balance Accurancy Score:**
+Average Number of recalled/predictions each model got right.  High accurancy score yeild greater score of accurancy when making predictions. 
+- **Precision Score:**
+Number of correct positive predicted observations compared to the total number of positive predicted observations. High precision score yeild a low false positive rate. 
+- **Recall Score:**
+Number of correct positive predicted observations compared to the number of positive predicted observations in a class. High recall score yeild a low false positive rate.
 
 
 
