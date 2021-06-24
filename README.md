@@ -51,5 +51,21 @@ Combination (Over and Under) Sampling | Use Combination of SMOTE Over Sampling a
 Balanced Random Forest Classifier | Multiples decision trees are fitted into a forest tree with weak learning trees. It then trains the model against a small subset of the initial dataset. | Reduction of variance of the model leading to increase accuracy  | Not ideal for skewed distribution classification
 Easy Ensemble AdaBoost Classifier | Random sample of minority class train sequentially against a subset of the majority class and labeled based on prediction | Minority weighted classifier average label predictions intended to facilitate the learning during the next iteration and makes corrections of misclassification to the previous sets to minimize the pseudo-residuals  | Can be difficult to interperet 
 
+# PICTURE OF RESULTS 
+#### Naive Random Oversampling
+[![Naive-Random-Sampling.png](https://i.postimg.cc/K8X6vP8s/Naive-Random-Sampling.png)](https://postimg.cc/VdRGKbMj)
 
+#### SMOTE Oversampling  
+[![SMOTEOversampling.png](https://i.postimg.cc/XvLm8tcT/SMOTEOversampling.png)](https://postimg.cc/yJJL6QGP)
 
+#### Undersampling
+[![Undersampling.png](https://i.postimg.cc/cL95tfxS/Undersampling.png)](https://postimg.cc/xXmPWJNx)
+
+#### Combination (Over and Under) Sampling 
+[![Combination-Over-and-Under-Sampling-png.png](https://i.postimg.cc/3RSMKzkg/Combination-Over-and-Under-Sampling-png.png)](https://postimg.cc/G8ygK7J2)
+
+#### Balanced Random Forest Classifier 
+[![Balance-Random-Forest-Classifier.png](https://i.postimg.cc/05njSNwf/Balance-Random-Forest-Classifier.png)](https://postimg.cc/ThyTMfQL)
+
+#### Easy Ensemble AdaBoost Classifier
+[![Easy.png](https://i.postimg.cc/8c9qvWBc/Easy.png)](https://postimg.cc/D4QjkSN3)
