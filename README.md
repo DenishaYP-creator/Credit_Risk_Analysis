@@ -1,11 +1,7 @@
 # Credit_Risk_Analysis
- 
-Write a brief summary and analysis of the performance of all the machine learning models used in this Challenge.
 
 ## Overview of the analysis: 
-Explain the purpose of this analysis.
-
-
+In this project, we the Scikit learn, imbalanced libraries, and a credit card dataset from LendingClub, a peer-to-peer lending services company to build, train and evaluate varios Machine Learning models. The ML techniques used in this project to solve for unbalanced risk classification in the LendingClub credit card dataset.
 
 **The deliverables for this Challenge are as follows:**
 - Deliverable 1: Use Resampling Models to Predict Credit Risk (File Upload credit_risk_resampling.ipynb file)
@@ -14,7 +10,7 @@ Explain the purpose of this analysis.
 - Deliverable 4: A Written Report on the Credit Risk Analysis (README.md)
 
 
-## Results: 
+## Results:  Performance Machine Learning model
 Machine Learning Model | Balanced Accuracy Score| Precision Score| Recall Score
 ------------ | -------------  | ------------- | -------------
 Naive Random Oversampling| 0.59 | 0.99|  0.53
@@ -29,7 +25,6 @@ Easy Ensemble AdaBoost Classifier | 0.92 | 0.99 | 0.94
 
 
 ## Summary: 
-
 #### Recommendation: 
 Based on the above results, the Balanced Random Forest Classifier has a Balanced Accuracy Score of 0.79, Precision Score of 0.99, and a Recall Score; therefore, we recommend using the Balanced Random Forest Classifier techniques to solve for unbalanced credit card risk classification problem. In the Balanced Random Forest Classifier, Multiples decision trees are fitted into a forest tree with weak learning trees. It then trains the model against a small subset of the initial dataset resulting in the reduction of the variance of the model leading to increase accuracy
 
