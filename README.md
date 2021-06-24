@@ -44,15 +44,15 @@ Easy Ensemble AdaBoost Classifier | 0.92 | 0.99 | 0.94
 
 Machine Learning Model | What it does!| Results  | Disadvantages of Method
 ------------ | -------------  | ------------- | -------------
-Naive Random Oversampling| In  Naive Random Oversampling the the minority class are randomly selected from the data and added to the training set resulting in increase in the size of the minority data| set resulting in increase in the size of the minority data leading to a balance data set.|  The disadvantage of this metthod is that you  can end up losing critial information that can be vital to a ML model.
-SMOTE Oversampling | In Oversampling(Synthetic Minority Oversampling Technique), on the other hand, the minority class are selected from an occurance of that minority class closest neihborbor | resulting in the creation of new values. | The disadvantage of this metthod is that you  can end up with outlineirs since it relies on the neighboring value.
-Random Undersampling | In  Udersampling the the majority class are randomly decreased in the training set | resulting in decrease in the size of the majority data leading to a balance data set.| The disadvantage of this metthod is that you  must have sufficent data to select from otherwise the we can end up losing critial information that can be vital to a ML model
+Naive Random Oversampling(NRO)| In  NRO minority class are randomly selected from the data and added to the training set | Increase in the size of the minority data leading to a balance data set.| You can end up losing critial information that can be vital to a ML model.
+SMOTE Oversampling (Synthetic Minority Oversampling Technique) | The minority class are selected from an occurance of that minority class closest neihborbor | Creates new values. | You can end up with outlineirs since it relies on the neighboring value.
+Random Undersampling | The majority class are randomly decreased in the training set | Decrease in the size of the majority data leading to a balance data set.|  You  must have sufficent data to select from otherwise we can end up losing critial information that can be vital to a ML model
 
 Machine Learning Model | What it does!| Results  | Disadvantages of Method
 ------------ | -------------  | ------------- | -------------
 Combination (Over and Under) Sampling | In Combination (Over and Under) Sampling | resulting in| The disadvantage of this metthod
-Balanced Random Forest Classifier | In Balanced Random Forest Classifier|  resulting in| The disadvantage of this metthod
-Easy Ensemble AdaBoost Classifier | In Easy Ensemble AdaBoost Classifier | resulting in | The disadvantage of this metthod
+Balanced Random Forest Classifier | Mutiples decision trees are fitted into a forest tree with weak learning trees. It then   trains model agaist a small subset of the initial dataset. | Reduction of variance of the model leading to increase accuracy  | Not ideal for skewed distribution classification
+Easy Ensemble AdaBoost Classifier | Use of Bootstraping and agreegation of implmented in the model. Bootstraping a repested process in with random sample of minority class are taken and placed back into the general data population. Each bootstrap minoriity class sample set is ran idenpendently againt subset of the majpority class and labeled based on prediction durign the agrregation process| Minority weighted classifier average label predictions intended to faciliate the correction of misclassification.   | The disadvantage of this metthod
 
 
 
