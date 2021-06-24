@@ -37,10 +37,8 @@ Easy Ensemble AdaBoost Classifier | 0.92 | 0.99 | 0.94
 
 ## Summary: 
 
-#### Three techniques to address class imbalance: 
-1. Oversampling
-2. Undersampling
-3. Combination approach of Oversampling & Undersampling
+#### Recommendation: 
+Based on the above results, the Balanced Random Forest Classifier has a Balanced Accuracy Score of 0.79, Precision Score of 0.99, and a Recall Score; therefore, we recommend using the Balanced Random Forest Classifier techniques to solve for unbalanced credit card risk classification problem. In the Balanced Random Forest Classifier, Multiples decision trees are fitted into a forest tree with weak learning trees. It then trains the model against a small subset of the initial dataset resulting in the reduction of the variance of the model leading to increase accuracy
 
 Machine Learning Model | What it does!| Results  | Disadvantages of Method
 ------------ | -------------  | ------------- | -------------
