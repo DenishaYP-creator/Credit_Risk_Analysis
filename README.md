@@ -44,19 +44,12 @@ Easy Ensemble AdaBoost Classifier | 0.92 | 0.99 | 0.94
 
 Machine Learning Model | What it does!| Results  | Disadvantages of Method
 ------------ | -------------  | ------------- | -------------
-Naive Random Oversampling(NRO)| In  NRO minority class are randomly selected from the data and added to the training set | Increase in the size of the minority data leading to a balance data set.| You can end up losing critial information that can be vital to a ML model.
-SMOTE Oversampling (Synthetic Minority Oversampling Technique) | The minority class are selected from an occurance of that minority class closest neihborbor | Creates new values. | You can end up with outlineirs since it relies on the neighboring value.
-Random Undersampling | The majority class are randomly decreased in the training set | Decrease in the size of the majority data leading to a balance data set.|  You  must have sufficent data to select from otherwise we can end up losing critial information that can be vital to a ML model
-
-Machine Learning Model | What it does!| Results  | Disadvantages of Method
------------- | -------------  | ------------- | -------------
-Combination (Over and Under) Sampling | In Combination (Over and Under) Sampling | resulting in| The disadvantage of this metthod
-Balanced Random Forest Classifier | Mutiples decision trees are fitted into a forest tree with weak learning trees. It then   trains model agaist a small subset of the initial dataset. | Reduction of variance of the model leading to increase accuracy  | Not ideal for skewed distribution classification
-Easy Ensemble AdaBoost Classifier | Use of Bootstraping and agreegation of implmented in the model. Bootstraping a repested process in with random sample of minority class are taken and placed back into the general data population. Each bootstrap minoriity class sample set is ran idenpendently againt subset of the majpority class and labeled based on prediction durign the agrregation process| Minority weighted classifier average label predictions intended to faciliate the correction of misclassification.   | The disadvantage of this metthod
+Naive Random Oversampling(NRO)| Minority classes are randomly selected from the data and added to the training set | Increase in the size of the minority data leading to a balanced data set.| You can end up losing critical information that can be vital to an ML model.
+SMOTE Oversampling (Synthetic Minority Oversampling Technique) | The minority class are selected from an occurrence of that minority class closest neighbor or | Creates new values. | You can end up with outliners since it relies on the neighboring value.
+Random Undersampling | The majority class, is randomly decreased in the training set | Decrease in most of the data, leading to a balanced data set.|  You  must have sufficient data to select from; otherwise, we can end up losing critical information that can be vital to an ML model
+Combination (Over and Under) Sampling | Use Combination of SMOTE Over Sampling and Edited Nearest Neighbors (ENN) Under Sampling to remove outliers.  | Data point are dropped when if nearest neighbors are from two different classes | You  must have sufficient data to select from; otherwise, we can end up losing critical information that can be vital to an ML model
+Balanced Random Forest Classifier | Multiples decision trees are fitted into a forest tree with weak learning trees. It then trains the model against a small subset of the initial dataset. | Reduction of variance of the model leading to increase accuracy  | Not ideal for skewed distribution classification
+Easy Ensemble AdaBoost Classifier | Random sample of minority class train sequentially against a subset of the majority class and labeled based on prediction | Minority weighted classifier average label predictions intended to facilitate the learning during the next iteration and makes corrections of misclassification to the previous sets to minimize the pseudo-residuals  | Can be difficult to interperet 
 
 
-
-
-Oversample the minority class with SMOTE.
-Clean the resulting data with an undersampling strategy. If the two nearest neighbors of a data point belong to two different classes, that data point is dropped.
 
